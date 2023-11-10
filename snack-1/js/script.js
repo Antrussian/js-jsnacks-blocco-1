@@ -8,5 +8,19 @@ const etaPersona2 = parseInt (prompt ("inserisci l'eta della seconda persona"));
 
 
 
+if (etaPersona1 > etaPersona2) {
+    console.log(etaPerson1);
+}
 
-document.getElementById('output').innerHTML = 'Ecco le tue credenziali ' + userInfo + password ;
+else if ( etaPersona 2 > etaPersona1) {
+    console.log(etaPersona2)
+}
+
+else  (etaPersona1 == etaPersona2) {
+    console.log ("L'eta è uguale")
+}
+
+
+
+
+document.getElementById('output').innerHTML = ;
