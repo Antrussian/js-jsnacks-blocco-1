@@ -14,19 +14,16 @@ do proprietà alle classi
 */
 
 
-let output = 0;
 
 
+const ouputElement = document.querySelector('div.outputElement')
 
 for (let output = 0; output <6; output++) {
 
-   
 
 console.log(output);
 
 
-
-output.innerHTML = numero;
 
 
 }
