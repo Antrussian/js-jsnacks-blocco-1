@@ -24,7 +24,7 @@ for (let output = 0; output <6; output++) {
 
 console.log(output);
 
-numero = output;
+
 
 output.innerHTML = numero;
 
