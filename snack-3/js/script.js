@@ -16,14 +16,14 @@ do proprietà alle classi
 
 
 
-const ouputElement = document.querySelector('div.outputElement')
+const ouputElement = document.querySelector('#div.outputElement')
 
-for (let output = 0; output <= 20 ; output += 2) {
+for (let output = 0; output <= 30 ; output += 3) {
 
-   
-  
-outputElement.innerHTML = output;
+    
+       const testoAttuale = outputElement.textContent;
 
+       outputElement.textContent = testoAttuale + output ;
 
 console.log(output);
 
