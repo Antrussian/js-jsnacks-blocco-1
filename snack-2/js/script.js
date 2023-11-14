@@ -14,12 +14,22 @@ do proprietà alle classi
 */
 
 
-const numero= 0;
+const output = 0;
 
 
+
+for (let output = 0; output <6; output++) {
+
+    const output = document.querySelector ('div.output');
+
+    const outputElement = document.createElement('output');
+
+outputElement.appendChild(output);
+
+console.log(output);
 
 output.innerHTML = numero;
 
 
-
+}
 
