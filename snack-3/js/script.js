@@ -18,10 +18,11 @@ do proprietà alle classi
 
 const ouputElement = document.querySelector('div.outputElement')
 
-for (let output = 0; output <= 6 ; output += 2) {
+for (let output = 0; output <= 20 ; output += 2) {
 
    
   
+outputElement.innerHTML = output;
 
 
 console.log(output);
