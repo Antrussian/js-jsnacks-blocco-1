@@ -19,8 +19,13 @@ if ( lunghezzaparola1 > lunghezzaparola2 ){
 }
 
 else {
-    paroLunga = parola2;
+    parolaLunga = parola2;
 }
 
-console.log("parola più corta" + parolaCorta);
-console.log("parola più corta" + parolaLunga);
+
+document.getElementById('parola_Corta').innerHTML = 'Risultato = ' + parolaCorta;
+
+document.getElementById('parola_Lunga').innerHTML = 'Risultato = ' + parolaLunga;
+
+
+
