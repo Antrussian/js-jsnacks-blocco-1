@@ -12,14 +12,15 @@ document.getElementById('output').innerHTML= numeroCasuale;
 
 
 
-/*ad ogni click del bottone */
+
 
 const buttonElement = document.getElementById('myButton');
 
-
+/*ad ogni click del bottone */
 
 buttonElement.addEventListener('click', function () {
-
+    
+/* aumento il numero nell'h1 di 3 e lo aggiorno in pagina*/
     numeroCasuale = numeroCasuale += 3;
 
 
@@ -29,4 +30,3 @@ buttonElement.addEventListener('click', function () {
 
 
 
-/* aumento il numero nell'h1 di 3 e lo aggiorno in pagina*/
